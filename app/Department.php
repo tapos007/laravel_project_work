@@ -6,7 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Department extends Model
 {
-    //
 
+   protected $dates = [
+       'my_date'
+   ];
 
 }
